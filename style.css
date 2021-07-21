@@ -1,0 +1,88 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: 1px solid white; */
+  margin: 120px 180px 0 180px;
+  isolation: isolate;
+}
+.left {
+  background-color: hsl(244, 38%, 16%);
+  display: block;
+  justify-content: center;
+  max-width: 420px;
+  border-radius: 5px 0 0 5px;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin: 50px 0 10px 50px;
+  font-size: 28px;
+  max-width: 70%;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 20px 0 10px 50px;
+  max-width: 280px;
+  line-height: 1.75;
+  opacity: 0.6;
+}
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 65%;
+  line-height: 1.5;
+  position: relative;
+  top: 40px;
+  left: 50px;
+}
+.statsNumber {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+}
+.statsName {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.75);
+  opacity: 0.6;
+}
+.image {
+  display: block;
+  background-color: hsl(277, 92%, 31%);
+  border-radius: 0 5px 5px 0;
+}
+img {
+  width: 425px;
+  height: 100%;
+  opacity: 0.4;
+  border-radius: 0 5px 5px 0;
+}
+
+.color {
+  color: hsl(277, 64%, 61%);
+}
+@media screen and (max-width: 700px) {
+  .card {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
